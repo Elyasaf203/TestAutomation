@@ -1,0 +1,345 @@
+{
+  "uid" : "3b7447de973d958f",
+  "name" : "test_01 verify Addition Command ",
+  "fullName" : "SanityTests.calculatorDesktop.Test_01_addition",
+  "historyId" : "d76c11b6ee649d360db9271a498ac2c0",
+  "time" : {
+    "start" : 1610007452170,
+    "stop" : 1610007458529,
+    "duration" : 6359
+  },
+  "description" : "test description :verift Addition Command in Calculator",
+  "descriptionHtml" : "<p>test description :verift Addition Command in Calculator</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1610007441000,
+      "stop" : 1610007451870,
+      "duration" : 10870
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "test description :verift Addition Command in Calculator",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Calculate Addition",
+      "time" : {
+        "start" : 1610007452326,
+        "stop" : 1610007456932,
+        "duration" : 4606
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1610007452667,
+          "stop" : 1610007453529,
+          "duration" : 862
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=WINDOWS}] -> name: Clear]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1610007453829,
+          "stop" : 1610007454461,
+          "duration" : 632
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=WINDOWS}] -> name: One]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1610007454700,
+          "stop" : 1610007455329,
+          "duration" : 629
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=WINDOWS}] -> name: Plus]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1610007455562,
+          "stop" : 1610007456136,
+          "duration" : 574
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=WINDOWS}] -> name: Seven]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1610007456385,
+          "stop" : 1610007456931,
+          "duration" : 546
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=WINDOWS}] -> name: Equals]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "verify text in element",
+      "time" : {
+        "start" : 1610007457753,
+        "stop" : 1610007458522,
+        "duration" : 769
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=WINDOWS}] -> xpath: //*[@AutomationId='CalculatorResults']]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "8"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1610007458953,
+      "stop" : 1610007459264,
+      "duration" : 311
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1610007458899,
+      "stop" : 1610007458899,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.calculatorDesktop"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.calculatorDesktop"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_01_addition"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Desktop Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.calculatorDesktop"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JEH45EU"
+  }, {
+    "name" : "thread",
+    "value" : "6460@DESKTOP-JEH45EU.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fb3a0e6727e230b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609961361359,
+        "stop" : 1609961369677,
+        "duration" : 8318
+      }
+    }, {
+      "uid" : "43769a3347523834",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JEH45EU', ip: '192.168.43.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242'\nDriver info: io.appium.java_client.windows.WindowsDriver\nCapabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}\nSession ID: 422B9585-87A7-40F5-9CFB-47A6D2A2D7AF\n*** Element info: {Using=name, value=Clear}",
+      "time" : {
+        "start" : 1609961000215,
+        "stop" : 1609961012999,
+        "duration" : 12784
+      }
+    }, {
+      "uid" : "e38fa50e55824779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609960930100,
+        "stop" : 1609960934653,
+        "duration" : 4553
+      }
+    }, {
+      "uid" : "2962cb75f1cf99bf",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1609960475321,
+        "stop" : 1609960475321,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cccf9ecff484db81",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1609960424749,
+        "stop" : 1609960424757,
+        "duration" : 8
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 2,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "551a75aa6241650",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/4/allure/#testresult/551a75aa6241650",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609961361359,
+          "stop" : 1609961369677,
+          "duration" : 8318
+        }
+      }, {
+        "uid" : "3d739ef5bafafc23",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/3/allure/#testresult/3d739ef5bafafc23",
+        "status" : "broken",
+        "statusDetails" : "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-JEH45EU', ip: '192.168.43.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242'\nDriver info: io.appium.java_client.windows.WindowsDriver\nCapabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}\nSession ID: 422B9585-87A7-40F5-9CFB-47A6D2A2D7AF\n*** Element info: {Using=name, value=Clear}",
+        "time" : {
+          "start" : 1609961000215,
+          "stop" : 1609961012999,
+          "duration" : 12784
+        }
+      }, {
+        "uid" : "b73eed6f0ea3b8ba",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/2/allure/#testresult/b73eed6f0ea3b8ba",
+        "status" : "skipped",
+        "statusDetails" : "java.lang.NullPointerException",
+        "time" : {
+          "start" : 1609960424749,
+          "stop" : 1609960424757,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "80a7c8626110b891",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/1/allure/#testresult/80a7c8626110b891",
+        "status" : "skipped",
+        "statusDetails" : "java.lang.NullPointerException",
+        "time" : {
+          "start" : 1609923847519,
+          "stop" : 1609923847535,
+          "duration" : 16
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3b7447de973d958f.json",
+  "parameterValues" : [ "desktop" ]
+}

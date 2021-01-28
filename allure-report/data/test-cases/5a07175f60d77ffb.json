@@ -1,0 +1,109 @@
+{
+  "uid" : "5a07175f60d77ffb",
+  "name" : "startSession",
+  "fullName" : "Utilities.commonOps.startSession",
+  "historyId" : "f87ce90fb4a1c7f1c3c088e22ba47082",
+  "time" : {
+    "start" : 1609937381705,
+    "stop" : 1609937381716,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "statusMessage" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\USER\\AppData\\Local\\JetBrains\\IdeaIE2020.3\\temp-testng-customsuite.xml",
+  "statusTrace" : "org.testng.TestNGException: \nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\USER\\AppData\\Local\\JetBrains\\IdeaIE2020.3\\temp-testng-customsuite.xml\r\n\tat org.testng.internal.Parameters.createParams(Parameters.java:290)\r\n\tat org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)\r\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:620)\r\n\tat org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.grafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.grafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "startSession"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "TestAutomation"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.grafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JEH45EU"
+  }, {
+    "name" : "thread",
+    "value" : "11748@DESKTOP-JEH45EU.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ec0694f617adbe72",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/4/allure/#testresult/ec0694f617adbe72",
+        "status" : "broken",
+        "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\USER\\AppData\\Local\\JetBrains\\IdeaIE2020.3\\temp-testng-customsuite.xml",
+        "time" : {
+          "start" : 1609937381705,
+          "stop" : 1609937381716,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "bc41fc17e48b65d1",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/3/allure/#testresult/bc41fc17e48b65d1",
+        "status" : "broken",
+        "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\USER\\AppData\\Local\\JetBrains\\IdeaIE2020.3\\temp-testng-customsuite.xml",
+        "time" : {
+          "start" : 1609937381705,
+          "stop" : 1609937381716,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "ec016e37c9d0f505",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/2/allure/#testresult/ec016e37c9d0f505",
+        "status" : "broken",
+        "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\USER\\AppData\\Local\\JetBrains\\IdeaIE2020.3\\temp-testng-customsuite.xml",
+        "time" : {
+          "start" : 1609937381705,
+          "stop" : 1609937381716,
+          "duration" : 11
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5a07175f60d77ffb.json",
+  "parameterValues" : [ ]
+}

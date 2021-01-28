@@ -1,0 +1,113 @@
+{
+  "uid" : "e38fa50e55824779",
+  "name" : "test_01 verify Addition Command ",
+  "fullName" : "SanityTests.calculatorDesktop.Test_01_addition",
+  "historyId" : "d76c11b6ee649d360db9271a498ac2c0",
+  "time" : {
+    "start" : 1609960930100,
+    "stop" : 1609960934653,
+    "duration" : 4553
+  },
+  "description" : "test description :verift Addition Command in Calculator",
+  "descriptionHtml" : "<p>test description :verift Addition Command in Calculator</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1609960917957,
+      "stop" : 1609960929944,
+      "duration" : 11987
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1609960934952,
+      "stop" : 1609960934952,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1609960934983,
+      "stop" : 1609960935180,
+      "duration" : 197
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.calculatorDesktop"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.calculatorDesktop"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_01_addition"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Desktop Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.calculatorDesktop"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JEH45EU"
+  }, {
+    "name" : "thread",
+    "value" : "1508@DESKTOP-JEH45EU.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e38fa50e55824779.json",
+  "parameterValues" : [ "desktop" ]
+}

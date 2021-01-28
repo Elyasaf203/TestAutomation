@@ -1,0 +1,399 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-JEH45EU",
+    "children" : [ {
+      "name" : "11748@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "test_04 delete last user and verifyusers ",
+        "uid" : "73b2353d373a34c",
+        "parentUid" : "6c4bd535631a78b3640269ef558d75b1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609937382345,
+          "stop" : 1609937382345,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01 login to grafana",
+        "uid" : "9ca35044250ac5ab",
+        "parentUid" : "6c4bd535631a78b3640269ef558d75b1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609937382221,
+          "stop" : 1609937382231,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_05 Verify Avatar ",
+        "uid" : "8cd7d6af20befd30",
+        "parentUid" : "6c4bd535631a78b3640269ef558d75b1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609937382363,
+          "stop" : 1609937382363,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02 verify default users",
+        "uid" : "38a1d004e516a8cd",
+        "parentUid" : "6c4bd535631a78b3640269ef558d75b1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609937382292,
+          "stop" : 1609937382294,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "5a07175f60d77ffb",
+        "parentUid" : "6c4bd535631a78b3640269ef558d75b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609937381705,
+          "stop" : 1609937381716,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_03 add and verify users ",
+        "uid" : "59a65b4cb99cf756",
+        "parentUid" : "6c4bd535631a78b3640269ef558d75b1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609937382325,
+          "stop" : 1609937382325,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c4bd535631a78b3640269ef558d75b1"
+    }, {
+      "name" : "6232@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "test_01 verify Addition Command ",
+        "uid" : "43769a3347523834",
+        "parentUid" : "fb76b72951194d6fb9cfd94faa18311f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609961000215,
+          "stop" : 1609961012999,
+          "duration" : 12784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "fb76b72951194d6fb9cfd94faa18311f"
+    }, {
+      "name" : "13012@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "test_01 verify Addition Command ",
+        "uid" : "fb3a0e6727e230b0",
+        "parentUid" : "134634eb2d32c95712d5b7f9ae2548a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609961361359,
+          "stop" : 1609961369677,
+          "duration" : 8318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "134634eb2d32c95712d5b7f9ae2548a7"
+    }, {
+      "name" : "1508@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "test_01 verify Addition Command ",
+        "uid" : "e38fa50e55824779",
+        "parentUid" : "6359510a5c380ee591867d20b5ed25d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609960930100,
+          "stop" : 1609960934653,
+          "duration" : 4553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "6359510a5c380ee591867d20b5ed25d7"
+    }, {
+      "name" : "12528@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "test_01 verify Addition Command ",
+        "uid" : "2962cb75f1cf99bf",
+        "parentUid" : "72466228f8a9ec37a4b1bbd277bf10c4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609960475321,
+          "stop" : 1609960475321,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "8849d30181e4193e",
+        "parentUid" : "72466228f8a9ec37a4b1bbd277bf10c4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609960474493,
+          "stop" : 1609960474508,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "72466228f8a9ec37a4b1bbd277bf10c4"
+    }, {
+      "name" : "2612@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "test_03 add and verify users ",
+        "uid" : "6aee263102985d69",
+        "parentUid" : "d20bca93f80310541d25b1d53c1cc1e7",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609950495080,
+          "stop" : 1609950495096,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01 login to grafana",
+        "uid" : "59f6dbb584af2000",
+        "parentUid" : "d20bca93f80310541d25b1d53c1cc1e7",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609950495049,
+          "stop" : 1609950495049,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02 verify default users",
+        "uid" : "be885a1ecb283bbd",
+        "parentUid" : "d20bca93f80310541d25b1d53c1cc1e7",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609950495065,
+          "stop" : 1609950495065,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "9580797c4de7c193",
+        "parentUid" : "d20bca93f80310541d25b1d53c1cc1e7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609950494546,
+          "stop" : 1609950494546,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web,api" ]
+      }, {
+        "name" : "test_05 Verify Avatar ",
+        "uid" : "a70edb2110f324d0",
+        "parentUid" : "d20bca93f80310541d25b1d53c1cc1e7",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609950495127,
+          "stop" : 1609950495127,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04 delete last user and verifyusers ",
+        "uid" : "141420703e281050",
+        "parentUid" : "d20bca93f80310541d25b1d53c1cc1e7",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609950495111,
+          "stop" : 1609950495111,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d20bca93f80310541d25b1d53c1cc1e7"
+    }, {
+      "name" : "5908@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "4fe876bde29420c5",
+        "parentUid" : "17770f334f2dbd963aa17d6ecf2843c4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609960548815,
+          "stop" : 1609960548831,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01 verify Addition Command ",
+        "uid" : "68e6a5288f1ef507",
+        "parentUid" : "17770f334f2dbd963aa17d6ecf2843c4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609960549239,
+          "stop" : 1609960549254,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "17770f334f2dbd963aa17d6ecf2843c4"
+    }, {
+      "name" : "11124@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "test_01 verify Addition Command ",
+        "uid" : "cccf9ecff484db81",
+        "parentUid" : "7ccdd4fc352d76dfc8d09892e9ce26ed",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1609960424749,
+          "stop" : 1609960424757,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "963559041ec7d30f",
+        "parentUid" : "7ccdd4fc352d76dfc8d09892e9ce26ed",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609960424129,
+          "stop" : 1609960424129,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "7ccdd4fc352d76dfc8d09892e9ce26ed"
+    }, {
+      "name" : "11432@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "test_01 login to grafana",
+        "uid" : "6ae3f967041faaf4",
+        "parentUid" : "b3c2e891582802938e9b338bb5f27386",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609961678557,
+          "stop" : 1609961688658,
+          "duration" : 10101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "b3c2e891582802938e9b338bb5f27386"
+    }, {
+      "name" : "8920@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "test_01 login to grafana",
+        "uid" : "c816c4d1bbc2e0dd",
+        "parentUid" : "ef40c85969ad4435c1a739be4ee358fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609961456963,
+          "stop" : 1609961464840,
+          "duration" : 7877
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "ef40c85969ad4435c1a739be4ee358fa"
+    }, {
+      "name" : "10600@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "test_01 verify screan resolution",
+        "uid" : "e487cd75ff329cde",
+        "parentUid" : "4897ed8e0dce71536d56fe462ee909b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609960518470,
+          "stop" : 1609960520774,
+          "duration" : 2304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "4897ed8e0dce71536d56fe462ee909b2"
+    }, {
+      "name" : "10032@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "test_01 verify screan resolution",
+        "uid" : "9682481a4c34ab13",
+        "parentUid" : "19179a47dc9d81a1daa4eb9515cfde96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609960330118,
+          "stop" : 1609960333241,
+          "duration" : 3123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "19179a47dc9d81a1daa4eb9515cfde96"
+    }, {
+      "name" : "6460@DESKTOP-JEH45EU.main(1)",
+      "children" : [ {
+        "name" : "test_01 verify Addition Command ",
+        "uid" : "3b7447de973d958f",
+        "parentUid" : "b7d01a5d0ec8345731faf956bd07fdd7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610007452170,
+          "stop" : 1610007458529,
+          "duration" : 6359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "b7d01a5d0ec8345731faf956bd07fdd7"
+    } ],
+    "uid" : "710c18d4d2053e0390791680d3a059d1"
+  } ]
+}

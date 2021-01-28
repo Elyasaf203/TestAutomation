@@ -1,0 +1,131 @@
+[ {
+  "uid" : "5a07175f60d77ffb",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1609937381705,
+    "stop" : 1609937381716,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "be885a1ecb283bbd",
+  "name" : "test_02 verify default users",
+  "time" : {
+    "start" : 1609950495065,
+    "stop" : 1609950495065,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6ae3f967041faaf4",
+  "name" : "test_01 login to grafana",
+  "time" : {
+    "start" : 1609961678557,
+    "stop" : 1609961688658,
+    "duration" : 10101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59f6dbb584af2000",
+  "name" : "test_01 login to grafana",
+  "time" : {
+    "start" : 1609950495049,
+    "stop" : 1609950495049,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4fe876bde29420c5",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1609960548815,
+    "stop" : 1609960548831,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a70edb2110f324d0",
+  "name" : "test_05 Verify Avatar ",
+  "time" : {
+    "start" : 1609950495127,
+    "stop" : 1609950495127,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9580797c4de7c193",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1609950494546,
+    "stop" : 1609950494546,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8849d30181e4193e",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1609960474493,
+    "stop" : 1609960474508,
+    "duration" : 15
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6aee263102985d69",
+  "name" : "test_03 add and verify users ",
+  "time" : {
+    "start" : 1609950495080,
+    "stop" : 1609950495096,
+    "duration" : 16
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e487cd75ff329cde",
+  "name" : "test_01 verify screan resolution",
+  "time" : {
+    "start" : 1609960518470,
+    "stop" : 1609960520774,
+    "duration" : 2304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b7447de973d958f",
+  "name" : "test_01 verify Addition Command ",
+  "time" : {
+    "start" : 1610007452170,
+    "stop" : 1610007458529,
+    "duration" : 6359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "141420703e281050",
+  "name" : "test_04 delete last user and verifyusers ",
+  "time" : {
+    "start" : 1609950495111,
+    "stop" : 1609950495111,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "68e6a5288f1ef507",
+  "name" : "test_01 verify Addition Command ",
+  "time" : {
+    "start" : 1609960549239,
+    "stop" : 1609960549254,
+    "duration" : 15
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

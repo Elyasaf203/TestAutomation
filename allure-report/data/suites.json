@@ -1,0 +1,218 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "TestAutomation",
+      "children" : [ {
+        "name" : "SanityTests.grafanaWeb",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "5a07175f60d77ffb",
+          "parentUid" : "ccaf09cd3c4a184cbb31c1ce6cd2af88",
+          "status" : "broken",
+          "time" : {
+            "start" : 1609937381705,
+            "stop" : 1609937381716,
+            "duration" : 11
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "startSession",
+          "uid" : "9580797c4de7c193",
+          "parentUid" : "ccaf09cd3c4a184cbb31c1ce6cd2af88",
+          "status" : "broken",
+          "time" : {
+            "start" : 1609950494546,
+            "stop" : 1609950494546,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web,api" ]
+        }, {
+          "name" : "test_01 login to grafana",
+          "uid" : "59f6dbb584af2000",
+          "parentUid" : "ccaf09cd3c4a184cbb31c1ce6cd2af88",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1609950495049,
+            "stop" : 1609950495049,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_02 verify default users",
+          "uid" : "be885a1ecb283bbd",
+          "parentUid" : "ccaf09cd3c4a184cbb31c1ce6cd2af88",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1609950495065,
+            "stop" : 1609950495065,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_03 add and verify users ",
+          "uid" : "6aee263102985d69",
+          "parentUid" : "ccaf09cd3c4a184cbb31c1ce6cd2af88",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1609950495080,
+            "stop" : 1609950495096,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_04 delete last user and verifyusers ",
+          "uid" : "141420703e281050",
+          "parentUid" : "ccaf09cd3c4a184cbb31c1ce6cd2af88",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1609950495111,
+            "stop" : 1609950495111,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_05 Verify Avatar ",
+          "uid" : "a70edb2110f324d0",
+          "parentUid" : "ccaf09cd3c4a184cbb31c1ce6cd2af88",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1609950495127,
+            "stop" : 1609950495127,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ccaf09cd3c4a184cbb31c1ce6cd2af88"
+      }, {
+        "name" : "SanityTests.calculatorDesktop",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "4fe876bde29420c5",
+          "parentUid" : "f424e7509ccbcd85ad9db5a003f7d544",
+          "status" : "broken",
+          "time" : {
+            "start" : 1609960548815,
+            "stop" : 1609960548831,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_01 verify Addition Command ",
+          "uid" : "68e6a5288f1ef507",
+          "parentUid" : "f424e7509ccbcd85ad9db5a003f7d544",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1609960549239,
+            "stop" : 1609960549254,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f424e7509ccbcd85ad9db5a003f7d544"
+      } ],
+      "uid" : "d9ac113fbc17f7711e812ec3ccc2f424"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Desktop Tests",
+      "children" : [ {
+        "name" : "SanityTests.calculatorDesktop",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "8849d30181e4193e",
+          "parentUid" : "ea0c32675d4e37942da9b8bb92c68d44",
+          "status" : "broken",
+          "time" : {
+            "start" : 1609960474493,
+            "stop" : 1609960474508,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "desktop" ]
+        }, {
+          "name" : "test_01 verify Addition Command ",
+          "uid" : "3b7447de973d958f",
+          "parentUid" : "ea0c32675d4e37942da9b8bb92c68d44",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610007452170,
+            "stop" : 1610007458529,
+            "duration" : 6359
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "desktop" ]
+        } ],
+        "uid" : "ea0c32675d4e37942da9b8bb92c68d44"
+      } ],
+      "uid" : "a85208ea6d1dcf330c707ffc4f2851fd"
+    }, {
+      "name" : "electron Tests",
+      "children" : [ {
+        "name" : "SanityTests.electronDemo",
+        "children" : [ {
+          "name" : "test_01 verify screan resolution",
+          "uid" : "e487cd75ff329cde",
+          "parentUid" : "9b25dcdb6dbbdfcfb3c96f2e53c31ddd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609960518470,
+            "stop" : 1609960520774,
+            "duration" : 2304
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        } ],
+        "uid" : "9b25dcdb6dbbdfcfb3c96f2e53c31ddd"
+      } ],
+      "uid" : "a6dd0274535b11e02f7a9ce099d2cd2c"
+    }, {
+      "name" : "WebDB Tests",
+      "children" : [ {
+        "name" : "SanityTests.grafanaWebDB",
+        "children" : [ {
+          "name" : "test_01 login to grafana",
+          "uid" : "6ae3f967041faaf4",
+          "parentUid" : "ec2633689220c9bd1da8d1f2b1b1cd7f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609961678557,
+            "stop" : 1609961688658,
+            "duration" : 10101
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        } ],
+        "uid" : "ec2633689220c9bd1da8d1f2b1b1cd7f"
+      } ],
+      "uid" : "0ab69b978b0fce7cfc8139b8897574e7"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}

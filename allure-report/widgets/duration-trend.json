@@ -1,0 +1,71 @@
+[ {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 70076824
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 23987972
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 23631294
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 23043052
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 2688037
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20electron/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 1466795
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Grafana%20Web/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 5628
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Grafana%20Web/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 5949
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Grafana%20Web/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 7248
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Grafana%20Web/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 7248
+  }
+} ]

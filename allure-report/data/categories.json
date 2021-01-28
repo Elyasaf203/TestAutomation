@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\USER\\AppData\\Local\\JetBrains\\IdeaIE2020.3\\temp-testng-customsuite.xml",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "5a07175f60d77ffb",
+        "parentUid" : "85b813e3d6a7283814e95defc764ed49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609937381705,
+          "stop" : 1609937381716,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85b813e3d6a7283814e95defc764ed49"
+    }, {
+      "name" : "invalid Platfor name stated",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "9580797c4de7c193",
+        "parentUid" : "ce7a0e7d359fa5b99edce4a8500d757b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609950494546,
+          "stop" : 1609950494546,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web,api" ]
+      } ],
+      "uid" : "ce7a0e7d359fa5b99edce4a8500d757b"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "8849d30181e4193e",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609960474493,
+          "stop" : 1609960474508,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\USER\\AppData\\Local\\JetBrains\\IdeaIE2020.1\\temp-testng-customsuite.xml",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "4fe876bde29420c5",
+        "parentUid" : "3d8626da8e70d3749f3cc3fc0bfb1b74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609960548815,
+          "stop" : 1609960548831,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d8626da8e70d3749f3cc3fc0bfb1b74"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

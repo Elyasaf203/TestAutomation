@@ -1,0 +1,152 @@
+{
+  "uid" : "be885a1ecb283bbd",
+  "name" : "test_02 verify default users",
+  "fullName" : "SanityTests.grafanaWeb.Test_02_verifyDefaultUsers",
+  "historyId" : "c9c27dfc497f4481e95f3199a389f403",
+  "time" : {
+    "start" : 1609950495065,
+    "stop" : 1609950495065,
+    "duration" : 0
+  },
+  "description" : "test description : verify the default the number of users (shold be 1",
+  "descriptionHtml" : "<p>test description : verify the default the number of users (shold be 1</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "invalid Platfor name stated",
+  "statusTrace" : "java.lang.RuntimeException: invalid Platfor name stated\r\n\tat Utilities.commonOps.startSession(commonOps.java:148)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1609950494155,
+      "stop" : 1609950494186,
+      "duration" : 31
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "invalid Platfor name stated",
+    "statusTrace" : "java.lang.RuntimeException: invalid Platfor name stated\r\n\tat Utilities.commonOps.startSession(commonOps.java:148)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.grafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.grafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_02_verifyDefaultUsers"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "TestAutomation"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.grafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JEH45EU"
+  }, {
+    "name" : "thread",
+    "value" : "2612@DESKTOP-JEH45EU.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "38a1d004e516a8cd",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\USER\\AppData\\Local\\JetBrains\\IdeaIE2020.3\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1609937382292,
+        "stop" : 1609937382294,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 4,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "15a7984ef71a082b",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/4/allure/#testresult/15a7984ef71a082b",
+        "status" : "skipped",
+        "statusDetails" : "invalid Platfor name stated",
+        "time" : {
+          "start" : 1609950495065,
+          "stop" : 1609950495065,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e6466d311c017409",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/3/allure/#testresult/e6466d311c017409",
+        "status" : "skipped",
+        "statusDetails" : "invalid Platfor name stated",
+        "time" : {
+          "start" : 1609950495065,
+          "stop" : 1609950495065,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ebbfeebfa5544404",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/2/allure/#testresult/ebbfeebfa5544404",
+        "status" : "skipped",
+        "statusDetails" : "invalid Platfor name stated",
+        "time" : {
+          "start" : 1609950495065,
+          "stop" : 1609950495065,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1afe03c07c9b9ee0",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Desktop/1/allure/#testresult/1afe03c07c9b9ee0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609921165730,
+          "stop" : 1609921167267,
+          "duration" : 1537
+        }
+      }, {
+        "uid" : "a942fe5ca1f9f179",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20electron/1/allure/#testresult/a942fe5ca1f9f179",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609921165730,
+          "stop" : 1609921167267,
+          "duration" : 1537
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "be885a1ecb283bbd.json",
+  "parameterValues" : [ ]
+}
